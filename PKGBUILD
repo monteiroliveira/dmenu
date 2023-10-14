@@ -1,6 +1,6 @@
 # Maintainer: Guilherme Monteiro de Oliveira <gmonteiro.oliveira@outlook.com>
 pkgname=dmenu-git
-pkgver=r613.60a6178
+pkgver=r615.dfd2086
 pkgrel=1
 epoch=
 pkgdesc="A build of dmenu, patched with border, center, fuzzyhighlight-caseinsensitive, fuzzymatch, grid, lineheight, numbers, xyw"
@@ -19,7 +19,7 @@ backup=()
 options=()
 install=
 changelog=
-source=('$pkgname::git+$url')
+source=("$pkgname::git+$url")
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
