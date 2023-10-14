@@ -1,6 +1,6 @@
 # Maintainer: Guilherme Monteiro de Oliveira <gmonteiro.oliveira@outlook.com>
 pkgname=dmenu-git
-pkgver=r615.dfd2086
+pkgver=r616.5253d98
 pkgrel=1
 epoch=
 pkgdesc="A build of dmenu, patched with border, center, fuzzyhighlight-caseinsensitive, fuzzymatch, grid, lineheight, numbers, xyw"
@@ -37,6 +37,6 @@ build() {
 package() {
 	cd "$pkgname"
 	make PREFIX=/usr DESTDIR="$pkgdir" install
-	install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname"
-	install -Dm644 README.org "$pkgdir/usr/share/doc/$pkgname"
+	install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/"
+	install -Dm644 README.org "$pkgdir/usr/share/doc/$pkgname/"
 }
